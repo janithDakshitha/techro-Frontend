@@ -9,12 +9,19 @@
     scroll-behavior: smooth;
     font-family: 'Poppins',sans-serif;
 }
-:root{
+/*:root{
     --bg-color:#1f242d;
     --second-bg-color:#323946;
     --text-color:#fff;
     --main-color:#0ef;
+}*/
+:root{
+    --bg-color:#ffffff;
+    --second-bg-color:#d4d5d6;
+    --text-color:#000000;
+    --main-color:rgba(0, 89, 255, 0.815);
 }
+
 html{
     font-size: 62.5%;
     overflow:visible;
@@ -101,8 +108,8 @@ span{
     margin-left: 3vw;
     width: 30vw;
     animation:floatImage 4s ease-in-out infinite ;
-    border-radius: 4rem;
-    box-shadow:0 0 1rem var(--main-color);
+    /*border-radius: 4rem;
+    box-shadow:0 0 1rem var(--main-color);*/
    
     
     
