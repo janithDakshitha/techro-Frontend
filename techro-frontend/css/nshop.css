@@ -1,0 +1,337 @@
+/* Reset Styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Basic Styles */
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+   /* padding: 0 20px;*/
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+header {
+	background-color: #f2f2f2;
+	padding: 20px 0;
+}
+
+.logo {
+	float: left;
+}
+
+.logo a {
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+}
+
+
+
+main {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*.sidebar {
+    flex-basis: 25%;
+    padding-right: 20px;
+    font-size: 16px;
+    text-align: left;
+}*/
+.sidebar {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    background: #9e9b9b;
+}
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.sidebar h3 {
+    font-size: 24px;
+    margin-top: 0;
+}
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar form {
+    margin-bottom: 20px;
+}
+
+.sidebar input[type="search"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sidebar button {
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.top-c{
+    display: flex;
+    max-width: fit-content;
+    
+    gap: 90%;
+
+    
+    
+}
+.top-c-h{
+    
+    font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 18px;
+    
+    
+    
+}
+.top-c .search-container {
+    max-width: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.top-c .search-container i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.top-c .search-container form {
+    display: flex;
+    flex: 1;
+}
+
+.top-c .search-container input[type="search"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.top-c .search-container button[type="submit"] {
+    margin-left: 10px;
+    background-color:rgba(0, 89, 255, 0.815);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	margin-bottom: 5px;
+}
+
+ul li a {
+	color: #333;
+	text-decoration: none;
+}
+
+ul li a:hover {
+	color: #4CAF50;
+}
+
+.content {
+	flex-basis: 75%;
+    background: #c7c2c2e8;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.product-grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+.product-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    flex-basis: calc(33.33% - 20px);
+    background-color: #f7f7f7;
+}
+
+.product-item:hover {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-image img {
+	max-width: 100%;
+	height: auto;
+    display: block;
+    border-radius: 5px 5px 0 0;
+}
+
+.product-details {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.product-details h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.product-details p {
+	font-size: 18px;
+	font-weight: bold;
+	color: rgba(0, 89, 255, 0.815);
+	margin-top: 10px;
+}
+
+.product-details form {
+    display: flex;
+    align-items: center;
+}
+
+.product-details input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 60px;
+}
+.product-details button {
+    background-color: rgba(0, 89, 255, 0.815);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-details label {
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.product-details select {
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-right: 10px;
+}
+
+.add-to-cart {
+	padding: 8px 15px;
+	border: none;
+	background-color: #3e26c5;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.pagination a {
+	padding: 8px 15px;
+	border: 1px solid #ccc;
+	background-color: #f2f2f2;
+	color: #333;
+	margin-right: 10px;
+}
+
+.pagination a.active {
+	background-color: #4CAF50;
+	color: #fff;
+	border-color: #4CAF50;
+}
+
+.product-details input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+    .products .product-item {
+        width: calc(50% - 10px);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .products .product-item {
+        width: 100%;
+    }
+}
+
+
+
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: rgb(206, 203, 203);
+}
+
+/* slidesshow*/
+
+
+
