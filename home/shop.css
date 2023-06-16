@@ -1,7 +1,7 @@
 :root {
   --white: #fff;
   --black: #222;
-  --pink: #f60091;
+  --red: #ff0000;
   --grey: #444;
   --grey2: #959595;
   --grey-alt: #d1e2e9;
@@ -250,7 +250,7 @@ li {
 }
 
 .hero-content h2 {
-  color: #b888ff;
+  color: #ff0000;
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -271,7 +271,7 @@ li {
 
 .btn {
   display: inline-block;
-  background-color: #fc7c7c;
+  background-color: #ff0022;
   padding: 1.2rem 4rem;
   color: #fff;
   font-weight: 600;
@@ -368,7 +368,7 @@ li {
 }
 
 .advert-box:nth-child(1) {
-  background-color: #f5c5d1;
+  background-color: #d10707;
 }
 
 .advert-box:nth-child(2) {
@@ -528,7 +528,7 @@ li {
 }
 
 .product-header .icons span:hover {
-  background-color: #ff7c9c;
+  background-color: #ff0000;
   color: #fff;
 }
 
@@ -943,7 +943,7 @@ th {
   text-align: left;
   padding: 0.5rem;
   color: #fff;
-  background-color: #fc7c7c;
+  background-color: #ff0000;
   font-weight: normal;
 }
 

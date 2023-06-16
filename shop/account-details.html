@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="../images/logo main.ico">
+  <!-- Box icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+  <link rel="stylesheet" href="../home/style.css" />
+  <link rel="stylesheet" href="../home/user-account.css" />
+  <title>My Account │ TechRoLK Engineering Solutions</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .account-details {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .account-details .user-info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .account-details .user-info img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .account-details .user-info h2 {
+      font-size: 24px;
+      color: #333;
+      margin: 0;
+    }
+
+    .account-details .user-info p {
+      font-size: 14px;
+      color: #666;
+      margin: 0;
+    }
+
+    .account-details .user-info .edit-profile {
+      margin-left: auto;
+      font-size: 14px;
+      color: #007bff;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    .account-details .user-address {
+      margin-bottom: 20px;
+    }
+
+    .account-details .user-address h3 {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .account-details .user-address p {
+      font-size: 14px;
+      color: #666;
+      margin: 0;
+    }
+
+    .account-details .user-address .edit-address {
+      font-size: 14px;
+      color: #007bff;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    </style>
+
+</head>
+
+<body>
+
+  <div id="wrapper" class="">
+
+    <!-- Sidebar -->
+    <br><br><br><br>
+    <div id="sidebar-wrapper" style="border-right: 3px solid #000000;">
+      <ul class="sidebar-nav">
+        <br>
+        <dl>
+        <dt><li class="sidebar-title">
+            <h2>MY ACCOUNT</h2>
+          </li></dt>
+        <br><br>
+        <li>
+          <a href="my-orders.html">My Orders</a>
+        </li>
+        <br>
+        <li>
+            <a href="order-tracking.html">Order Tracking</a>
+          </li>
+        <br>
+        <li>
+          <a href="account-details.html">Account Details</a>
+        </li>
+        <br>
+        <li>
+          <a href="#">Log Out</a>
+        </li>
+    </dl>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+        <!-- Header -->
+        <header class="header">
+          <a href="../index.html" class="logo"><img src="../images/logo main.png"> &nbsp;<b>TechRoLK Engineering
+              Solutions</b></a>
+          <i class='bx bx-menu' id="menu-icon"></i>
+      
+          <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="../index.html#services">Services</a>
+            <a href="index.html" class="active">Shop</a>
+            <a href="../index.html#contact">Contact</a>
+            <a href="../about.html">About</a>
+            <a href="my-orders.html">Account &nbsp;<iconify-icon icon="bx:user"></iconify-icon></a>
+          </nav>
+        </header>
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>My Account</h1>
+
+            <div class="account-details">
+              <div class="user-info">
+
+                <div>
+                  <h2>User Name</h2><br>
+                  <p>Email: useremail@gmail.com</p> <br>
+                  <p>Contact No.: 0774472200</p> <br>
+                  <p class="edit-profile" style="display: inline-block;">Edit Profile</p> &nbsp;
+                  <p class="edit-profile" style="display: inline-block;">Change password</p>
+                </div>
+              </div>
+              <br><br>
+              <div class="user-address">
+                <h3>Shipping Address</h3><br>
+                <p>123 Street, City, State, Country</p><br>
+                <p class="edit-address">Edit Address</p>
+              </div>
+            </div>
+      </div>
+    </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.2/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
