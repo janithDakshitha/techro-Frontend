@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="../images/logo main.ico">
+  <!-- Box icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+  <link rel="stylesheet" href="../home/style.css" />
+  <link rel="stylesheet" href="../home/shop.css" />
+  <title>Cart │ TechRoLK Engineering Solutions</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="../index.html" class="logo"><img src="../images/logo main.png"> &nbsp;<b>TechRoLK Engineering
+        Solutions</b></a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="../index.html">Home</a>
+      <a href="../index.html#services">Services</a>
+      <a href="index.html" class="active">Shop</a>
+      <a href="../index.html#contact">Contact</a>
+      <a href="../about.html">About</a>
+      <a href="my-orders.html">Account &nbsp;<iconify-icon icon="bx:user"></iconify-icon></a>
+    </nav>
+  </header>
+
+  <!-- Cart Items -->
+  <div class="container-md cart">
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/pic1.jpg" alt="">
+            <div>
+              <p>Drone</p>
+              <span>Price: $50.00</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>$50.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/pic2.jpg" alt="">
+            <div>
+              <p>Drone</p>
+              <span>Price: $90.00</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>$90.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/pic3.jpg" alt="">
+            <div>
+              <p>Drone</p>
+              <span>Price: $60.00</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>$60.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/pic4.jpg" alt="">
+            <div>
+              <p>Drone</p>
+              <span>Price: $60.00</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>$60.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/pic5.jpg" alt="">
+            <div>
+              <p>Drone</p>
+              <span>Price: $60.00</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>$60.00</td>
+      </tr>
+    </table>
+
+    <div class="total-price">
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td>$200</td>
+        </tr>
+        <tr>
+          <td>Tax</td>
+          <td>$50</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>$250</td>
+        </tr>
+      </table>
+      <a href="product-order.html" class="checkout btn">Proceed To Checkout</a>
+
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="ftr-links">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <center>
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by TechRoLK Engineering Solutions | All Rights Reserved</p>
+      </div>
+    </center>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <div class="ftr-social-links">
+      <ul>
+        <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+        <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+        <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <!-- Custom Script -->
+  <script src="./home/shop.js"></script>
+</body>
+
+</html>

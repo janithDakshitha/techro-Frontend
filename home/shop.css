@@ -996,3 +996,19 @@ th:last-child {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .top.container {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .top.container form,
+  .top.container .search-container {
+      margin: 10px 0;
+  }
+
+  .top.container form select,
+  .top.container .search-container input[type="text"] {
+      width: 150px;
+  }
+}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../images/logo main.ico">
+    <!-- Box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <link rel="stylesheet" href="../home/style.css" />
+    <link rel="stylesheet" href="../home/shop.css" />
+    <title>Shop │ TechRoLK Engineering Solutions</title>
+
+    <style>
+        .search-container {
+            display: flex;
+            align-items: center;
+        }
+
+        #search-input {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+        }
+
+        #search-button {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #ed252c;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        #search-results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="../index.html" class="logo"><img src="../images/logo main.png"> &nbsp;<b>TechRoLK Engineering
+                Solutions</b></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="../index.html#services">Services</a>
+            <a href="index.html" class="active">Shop</a>
+            <a href="../index.html#contact">Contact</a>
+            <a href="../about.html">About</a>
+            <a href="my-orders.html">Account &nbsp;<iconify-icon icon="bx:user"></iconify-icon></a>
+        </nav>
+    </header>
+
+
+
+
+    <!-- All Products -->
+    <section class="section all-products" id="products">
+        <div class="top container">
+            <h1>All Products</h1>
+            <form>
+                <select>
+                    <option value="1">Sort By Category</option>
+                    <option value="2">Cat 1</option>
+                    <option value="3">Cat 2</option>
+                    <option value="4">Cat 3</option>
+                    <option value="5">Cat 4</option>
+                </select>
+                <span><i class='bx bx-chevron-down'></i></span>
+            </form>
+            <form>
+                <select>
+                    <option value="1">Sort By Price</option>
+                    <option value="2">Ascending</option>
+                    <option value="3">Descending</option>
+                </select>
+                <span><i class='bx bx-chevron-down'></i></span>
+            </form>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search products...">
+                <button id="search-button">Search</button>
+            </div>
+            <div id="search-results"></div>
+        </div>
+
+        <div class="product-center container">
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/pic1.jpg" alt="">
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-cart"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="product-details.html">
+                        <h3>Drone</h3>
+                    </a>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">$50</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/pic2.jpg" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-cart"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Drone</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">$50</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/pic3.jpg" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-cart"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Drone</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">$50</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/pic4.jpg" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-cart"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Drone</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">$50</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/pic3.jpg" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-cart"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Drone</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">$50</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/pic5.jpg" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-cart"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Drone</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">$50</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/pic2.jpg" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-cart"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Drone</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">$50</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/pic3.jpg" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-cart"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Drone</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">$50</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pagination">
+        <div class=" container">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span><i class='bx bx-right-arrow-alt'></i></span>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="ftr-links">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <center>
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by TechRoLK Engineering Solutions | All Rights Reserved</p>
+            </div>
+        </center>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <div class="ftr-social-links">
+            <ul>
+                <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+                <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- Custom Script -->
+    <script src="./home/shop.js"></script>
+</body>
+
+</html>
